@@ -8,9 +8,33 @@
 </head>
 
 <body>
-
-
-   <!--  variable names to pass should be: term, number, start, stop -->
+    
+    <div class="container">
+        <div class="jumbotron">New York Times Search</div>
+        <div class="search-parameters">Search Parameters
+            <br>
+            <label>Search Term</label>
+            <br>
+            <input id="search-term"></input>
+            <br>
+            <label>Number of Records to Retrieve</label>
+            <br>
+            <input id="number-of-records"></input>
+            <br>
+            <label>Start Year (Optional)</label>
+            <br>
+            <input id="start-year"></input>
+            <br>
+            <label>End Year (Optional)</label>
+            <br>
+            <input id="end-year"></input>
+            <br>
+            <button id="submit">Search</button>
+            <button id="clear">Clear Results</button>
+        </div>
+        <div id="articles">
+        </div>
+        </div>
 
 
     <script src='http://code.jquery.com/jquery-2.1.3.min.js'></script>
